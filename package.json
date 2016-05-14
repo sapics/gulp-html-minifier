@@ -34,7 +34,7 @@
   "dependencies": {
     "event-stream": "^3.0.20",
     "gulp-util": "^2.2.20",
-    "html-minifier": "^1.1.1",
+    "html-minifier": "^2.1.2",
     "htmllint": "^0.2.7"
   },
   "keywords": [
