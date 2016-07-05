@@ -1,23 +1,23 @@
 {
-  "name": "gulp-html-minifier",
+  "name": "gulp-html-minifier2",
   "description": "Minify HTML with html-minifier.",
-  "version": "0.1.8",
-  "homepage": "https://github.com/origin1tech/gulp-html-minifier",
+  "version": "1.1.8",
+  "homepage": "https://github.com/sapics/gulp-html-minifier2",
   "author": {
-    "name": "Origin1 Technologies",
-    "url": "https://github.com/origin1tech"
+    "name": "sapics",
+    "url": "https://github.com/sapics"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/origin1tech/gulp-html-minifier.git"
+    "url": "https://github.com/sapics/gulp-html-minifier2.git"
   },
   "bugs": {
-    "url": "https://github.com/origin1tech/gulp-html-minifier/issues"
+    "url": "https://github.com/sapics/gulp-html-minifier2/issues"
   },
   "licenses": [
     {
       "type": "MIT",
-      "url": "https://github.com/origin1tech/gulp-html-minifier/blob/master/LICENSE.md"
+      "url": "https://github.com/sapics/gulp-html-minifier2/blob/master/LICENSE.md"
     }
   ],
   "main": "index.js",

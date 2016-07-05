@@ -1,25 +1,25 @@
-# gulp-html-minifier
+# gulp-html-minifier2
 
-> Minifies HTML using the html-minifier module. See [html-minifer](https://github.com/kangax/html-minifier) 
+> Minifies HTML using the html-minifier module. See [html-minifer](https://github.com/kangax/html-minifier)
 
 ## Getting Started
-Install the module with: 
+Install the module with:
 
 ````
-npm install gulp-html-minifier
+npm install gulp-html-minifier2
 `````
 
 ## Usage
 
-Along with the default options for html-minifier gulp-html-minifier exposes two additional handy methods. You can ignore
-paths within the filepath preventing the need to pipe in a rename. This is similar to what gulp-inject does. 
+Along with the default options for html-minifier gulp-html-minifier2 exposes two additional handy methods. You can ignore
+paths within the filepath preventing the need to pipe in a rename. This is similar to what gulp-inject does.
 
 Also you can pass in the environment to simply output your html to the destination ignoring the above paths if any but
 minification is not applied. This is helpful and probably what you want in the development process.
 
 ```js
 var gulp = require('gulp');
-var htmlmin = require('gulp-html-minifier');
+var htmlmin = require('gulp-html-minifier2');
 
 gulp.task('minify', function() {
   gulp.src('./src/*.html')
@@ -32,7 +32,7 @@ gulp.task('minify', function() {
 
 ```js
 var gulp = require('gulp');
-var htmlmin = require('gulp-html-minifier');
+var htmlmin = require('gulp-html-minifier2');
 
 gulp.task('minify', function() {
   gulp.src('./src/assets/*.html')
