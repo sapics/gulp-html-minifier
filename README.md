@@ -28,7 +28,7 @@ gulp.task('minify', function() {
 });
 ````
 
-##Ignore Path
+## Ignore Path
 
 ```js
 var gulp = require('gulp');
@@ -41,7 +41,7 @@ gulp.task('minify', function() {
 });
 ````
 
-##Development Mode
+## Development Mode
 
 If you pass into your options minification is skipped however ignore path will still be applied. This makes viewing
 source and element inspection easier as you probably don't want minified html when you're developing your application.
@@ -50,7 +50,7 @@ source and element inspection easier as you probably don't want minified html wh
 options.env = 'development'
 ````
 
-##Complete Options
+## Complete Options
 
 See the [html-minifer docs](https://github.com/kangax/html-minifier) for complete options.
 
