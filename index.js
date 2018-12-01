@@ -8,7 +8,7 @@
  */
 var es = require('event-stream'),
 	htmlmin = require('html-minifier'),
-	gutil = require('gulp-util');
+	PluginError = require('plugin-error');
 module.exports = function (options) {
 	options = options || {
 		showStack: false,
@@ -47,7 +47,7 @@ module.exports = function (options) {
 				file.contents = new Buffer(htmlmin.minify(String(file.contents), options));
 			}
 		} catch (err) {
-			return cb(new gutil.PluginError('gulp-htmlmin', err, options));
+			return cb(new PluginError('gulp-htmlmin', err, options));
 		}
 		cb(null, file);
 	});
