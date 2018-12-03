@@ -1,7 +1,7 @@
 {
   "name": "gulp-html-minifier2",
   "description": "Minify HTML with html-minifier.",
-  "version": "1.1.9",
+  "version": "1.1.10",
   "homepage": "https://github.com/sapics/gulp-html-minifier2",
   "author": {
     "name": "sapics",
@@ -33,7 +33,7 @@
     "mocha": "~2.5.3"
   },
   "dependencies": {
-    "event-stream": "3.3.4",
+    "event-stream": "=3.3.4",
     "html-minifier": "^2.1.7",
     "htmllint": "^0.3.0",
     "plugin-error": "^1.0.1"
